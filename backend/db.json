@@ -1,0 +1,23 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "aluno@gmail.com",
+      "password": "qqwwee",
+      "type": "student"
+    },
+    {
+      "id": 2,
+      "email": "escola@gmail.com",
+      "password": "qqwwee",
+      "type": "school",
+      "studants": [1]
+    },
+    {
+      "id": 3,
+      "email": "empresa@gmail.com",
+      "password": "qqwwee",
+      "type": "company"
+    }
+  ]
+}
