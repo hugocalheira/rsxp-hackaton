@@ -37,4 +37,5 @@ Ter a oportunidade de um primeiro estágio em sua área de interesse.
 - json-server db.json -p 3333
 
 ### frontend
+- yarn
 - yarn start
