@@ -19,5 +19,35 @@
       "password": "qqwwee",
       "type": "company"
     }
+  ],
+
+  "programs": [
+    {
+      "id": 1,
+      "company": "Rocketseat",
+      "img": "https://blog.rocketseat.com.br/content/images/2019/03/SaaS_Single_tenant_ou_Multi-tenant_qual_escolher.png",
+      "title": "Utilizando Node.js para resolver problemas do dia a dia"
+    },
+
+    {
+      "id": 2,
+      "company": "Totalvoice",
+      "img": "https://blog.rocketseat.com.br/content/images/2019/03/SaaS_Single_tenant_ou_Multi-tenant_qual_escolher.png",
+      "title": "Criando seu próprio assistente pessoal"
+    },
+
+    {
+      "id": 3,
+      "company": "Shawee",
+      "img": "https://blog.rocketseat.com.br/content/images/2019/03/SaaS_Single_tenant_ou_Multi-tenant_qual_escolher.png",
+      "title": "Construindo sua própria rede social com React e GraphQL"
+    },
+
+    {
+      "id": 4,
+      "company": "LinkApi",
+      "img": "https://blog.rocketseat.com.br/content/images/2019/03/SaaS_Single_tenant_ou_Multi-tenant_qual_escolher.png",
+      "title": "HTML, API, JS, URI... Entendendo essa sopa de letrinhas."
+    }
   ]
 }

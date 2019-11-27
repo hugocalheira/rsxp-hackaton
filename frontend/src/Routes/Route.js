@@ -18,10 +18,11 @@ export default function RouteWrapper({
             date = JSON.parse(atob(date));
 
             if (date+(60*30*1000) < new Date().getTime()) {
-                localStorage.removeItem('token')
-                setSigned(false)
+                localStorage.removeItem('token');
+                setSigned(false);
             } else {
-                setSigned(true)
+                console.log(user);
+                setSigned(true);
             }
         }
     },[])

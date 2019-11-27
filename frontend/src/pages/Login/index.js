@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { FaRobot, FaHandPaper } from 'react-icons/fa';
 import api from '../../services/api';
-import {Redirect} from 'react-router-dom';
+// import {Redirect} from 'react-router-dom';
 import history from '../../services/history';
 
 import { Container } from './styles';
@@ -22,7 +22,8 @@ export default function Login() {
             if (date+(60*30*1000) < new Date().getTime()) {
                 localStorage.removeItem('token')
             } else {
-                history.push('/dashboard')
+                console.log(user)
+                setTimeout(() => window.location.href = '/dashboard',100); // refazer
             }
         }
     },[])
