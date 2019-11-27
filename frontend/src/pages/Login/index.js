@@ -25,7 +25,7 @@ export default function Login() {
                 history.push('/dashboard')
             }
         }
-    },[ ])
+    },[])
 
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
@@ -45,6 +45,7 @@ export default function Login() {
         <>
             <GlobalStyle />
             <Container>
+                <div className="background"></div>
                 <form onSubmit={handleSubmit}>
                     <h1><FaRobot size={30} color='#bd2121'/> Gabiru-Tech</h1>
                     <input type="text" value={email} placeholder="E-mail" onChange={e => setEmail(e.target.value)} />

@@ -1,15 +1,27 @@
 import styled from 'styled-components';
+import bg from '../../assets/bg.jpg';
 
 export const Container = styled.div`
     width: 100%;
     height: 100%;
     display: flex;
-    background-image: url('http://www.consed.org.br/media/cache/news_760x470/media/image/gallery/inclusao-digital-escola-joca-costa/5d5a00216285ed8c82ecf1be3f086e82.jpg');
-    background-size: cover;
-    /* opacity: .1; */
+    position: relative;
 
     justify-content: center;
     align-items: center;
+
+    div.background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('http://www.consed.org.br/media/cache/news_760x470/media/image/gallery/inclusao-digital-escola-joca-costa/5d5a00216285ed8c82ecf1be3f086e82.jpg');
+        background-size: cover;
+        opacity: 0.1;
+        filter: saturate(0) blur(3px);
+        z-index: -1;
+    }
 
     form {
         padding: 20px;
@@ -20,6 +32,7 @@ export const Container = styled.div`
         flex-direction: column;
         justify-content: center;
         background: #fff;
+        color: #444;
 
         h1 {
             display: flex;
