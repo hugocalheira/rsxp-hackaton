@@ -3,16 +3,18 @@ import { FaRobot, FaSignOutAlt } from 'react-icons/fa';
 
 import { Container, Header, Logged, Programs } from './styles';
 import api from '../../services/api';
+import Modal from '../../components/Modal';
 
 export default function Dashboard() {
 
     const [programs, setPrograms] = useState([]);
+    const [selectedProgram, setSelectedProgram] = useState(null);
 
     useEffect(() => {
         (async () => {
             const response = await api.get('/programs');
             setPrograms(response.data);
-        })()
+        })();
 
     }, []);
 
@@ -26,11 +28,12 @@ export default function Dashboard() {
     }
 
     const handleDetail = p => {
-        console.log(p)
+        setSelectedProgram(p)
     }
 
     return (
         <>
+            <Modal program={selectedProgram}/>
             <Header>
                 <h1><FaRobot size={30} color='#bd2121'/> Gabiru-Tech</h1>
                 <Logged>
@@ -44,7 +47,24 @@ export default function Dashboard() {
             </Header>
             <Container>
 
-                <h2>Programas</h2>
+                <h2>Programas inscritos</h2>
+
+                <Programs>
+                    { programs && programs.map(p => (
+
+                    <li key={p.id}>
+                        <div onClick={() => handleDetail(p)}>
+                            <img src={p.img} alt={p.title} />
+                            <h4>{p.company}</h4>
+                            <h3>{p.title}</h3>
+                        </div>
+                        <button onClick={() => handleSubscription(p)}>Inscrever</button>
+                    </li>
+
+                    ))}
+                </Programs>
+
+                <h2>Programas disponíveis</h2>
 
                 <Programs>
                     { programs && programs.map(p => (

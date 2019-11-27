@@ -26,49 +26,64 @@
       "id": 1,
       "company": "Rocketseat",
       "img": "https://blog.rocketseat.com.br/content/images/2019/03/SaaS_Single_tenant_ou_Multi-tenant_qual_escolher.png",
-      "title": "Utilizando Node.js para resolver problemas do dia a dia"
+      "title": "Utilizando Node.js para resolver problemas do dia a dia",
+      "description": "Maecenas vitae neque ornare, maximus orci et, commodo justo. Donec cursus, erat et convallis luctus, sem eros aliquet sem, sit amet porta eros velit ac ligula. Donec vel ante massa. Donec non elit id dolor fringilla porta. Pellentesque tempor, augue at pulvinar pretium, nisi massa bibendum urna, ac consequat quam est a nibh. Quisque non aliquet nisi. Integer hendrerit ligula ac mauris venenatis, id rhoncus odio tempus.\n\nPhasellus massa tortor, consequat nec tincidunt efficitur, dignissim eget nibh. In tempor nisi ac consectetur varius. Nullam sollicitudin pulvinar mattis. Quisque congue mi lorem, ut luctus enim faucibus sit amet. Proin sit amet felis turpis. Sed id porttitor lectus. Duis tempus sapien at urna bibendum, quis volutpat ligula posuere. Morbi ultricies tellus et erat semper sodales. Vivamus augue purus, tempus vitae finibus at, placerat non ipsum. Duis consectetur, sem at faucibus tempor, metus ante sodales urna, vel aliquam ligula eros vitae est. Praesent elementum nunc nec ultrices posuere."
     },
 
     {
       "id": 2,
       "company": "Totalvoice",
       "img": "https://blog.rocketseat.com.br/content/images/2019/06/Datas-e-hora-rios-no-JavaScript-com-date-fns--adeus-moment-.png",
-      "title": "Criando seu próprio assistente pessoal"
+      "title": "Criando seu próprio assistente pessoal",
+      "description": "Maecenas vitae neque ornare, maximus orci et, commodo justo. Donec cursus, erat et convallis luctus, sem eros aliquet sem, sit amet porta eros velit ac ligula. Donec vel ante massa. Donec non elit id dolor fringilla porta. Pellentesque tempor, augue at pulvinar pretium, nisi massa bibendum urna, ac consequat quam est a nibh. Quisque non aliquet nisi. Integer hendrerit ligula ac mauris venenatis, id rhoncus odio tempus.\n\nPhasellus massa tortor, consequat nec tincidunt efficitur, dignissim eget nibh. In tempor nisi ac consectetur varius. Nullam sollicitudin pulvinar mattis. Quisque congue mi lorem, ut luctus enim faucibus sit amet. Proin sit amet felis turpis. Sed id porttitor lectus. Duis tempus sapien at urna bibendum, quis volutpat ligula posuere. Morbi ultricies tellus et erat semper sodales. Vivamus augue purus, tempus vitae finibus at, placerat non ipsum. Duis consectetur, sem at faucibus tempor, metus ante sodales urna, vel aliquam ligula eros vitae est. Praesent elementum nunc nec ultrices posuere."
     },
 
     {
       "id": 3,
       "company": "Shawee",
       "img": "https://blog.rocketseat.com.br/content/images/2019/05/Painel.png",
-      "title": "Construindo sua própria rede social com React e GraphQL"
+      "title": "Construindo sua própria rede social com React e GraphQL",
+      "description": "Maecenas vitae neque ornare, maximus orci et, commodo justo. Donec cursus, erat et convallis luctus, sem eros aliquet sem, sit amet porta eros velit ac ligula. Donec vel ante massa. Donec non elit id dolor fringilla porta. Pellentesque tempor, augue at pulvinar pretium, nisi massa bibendum urna, ac consequat quam est a nibh. Quisque non aliquet nisi. Integer hendrerit ligula ac mauris venenatis, id rhoncus odio tempus.\n\nPhasellus massa tortor, consequat nec tincidunt efficitur, dignissim eget nibh. In tempor nisi ac consectetur varius. Nullam sollicitudin pulvinar mattis. Quisque congue mi lorem, ut luctus enim faucibus sit amet. Proin sit amet felis turpis. Sed id porttitor lectus. Duis tempus sapien at urna bibendum, quis volutpat ligula posuere. Morbi ultricies tellus et erat semper sodales. Vivamus augue purus, tempus vitae finibus at, placerat non ipsum. Duis consectetur, sem at faucibus tempor, metus ante sodales urna, vel aliquam ligula eros vitae est. Praesent elementum nunc nec ultrices posuere."
     },
 
     {
       "id": 4,
       "company": "LinkApi",
       "img": "https://blog.rocketseat.com.br/content/images/2019/03/Utilizando_Notification_do_browser--1-.png",
-      "title": "HTML, API, JS, URI... Entendendo essa sopa de letrinhas."
+      "title": "HTML, API, JS, URI... Entendendo essa sopa de letrinhas.",
+      "description": "Maecenas vitae neque ornare, maximus orci et, commodo justo. Donec cursus, erat et convallis luctus, sem eros aliquet sem, sit amet porta eros velit ac ligula. Donec vel ante massa. Donec non elit id dolor fringilla porta. Pellentesque tempor, augue at pulvinar pretium, nisi massa bibendum urna, ac consequat quam est a nibh. Quisque non aliquet nisi. Integer hendrerit ligula ac mauris venenatis, id rhoncus odio tempus.\n\nPhasellus massa tortor, consequat nec tincidunt efficitur, dignissim eget nibh. In tempor nisi ac consectetur varius. Nullam sollicitudin pulvinar mattis. Quisque congue mi lorem, ut luctus enim faucibus sit amet. Proin sit amet felis turpis. Sed id porttitor lectus. Duis tempus sapien at urna bibendum, quis volutpat ligula posuere. Morbi ultricies tellus et erat semper sodales. Vivamus augue purus, tempus vitae finibus at, placerat non ipsum. Duis consectetur, sem at faucibus tempor, metus ante sodales urna, vel aliquam ligula eros vitae est. Praesent elementum nunc nec ultrices posuere."
     },
 
     {
       "id": 5,
       "company": "LinkApi",
       "img": "https://blog.rocketseat.com.br/content/images/2019/03/Construc-a-o.png",
-      "title": "Criando aplicações em tempo real"
+      "title": "Criando aplicações em tempo real",
+      "description": "Maecenas vitae neque ornare, maximus orci et, commodo justo. Donec cursus, erat et convallis luctus, sem eros aliquet sem, sit amet porta eros velit ac ligula. Donec vel ante massa. Donec non elit id dolor fringilla porta. Pellentesque tempor, augue at pulvinar pretium, nisi massa bibendum urna, ac consequat quam est a nibh. Quisque non aliquet nisi. Integer hendrerit ligula ac mauris venenatis, id rhoncus odio tempus.\n\nPhasellus massa tortor, consequat nec tincidunt efficitur, dignissim eget nibh. In tempor nisi ac consectetur varius. Nullam sollicitudin pulvinar mattis. Quisque congue mi lorem, ut luctus enim faucibus sit amet. Proin sit amet felis turpis. Sed id porttitor lectus. Duis tempus sapien at urna bibendum, quis volutpat ligula posuere. Morbi ultricies tellus et erat semper sodales. Vivamus augue purus, tempus vitae finibus at, placerat non ipsum. Duis consectetur, sem at faucibus tempor, metus ante sodales urna, vel aliquam ligula eros vitae est. Praesent elementum nunc nec ultrices posuere."
     },
 
     {
       "id": 6,
       "company": "Impulso",
       "img": "https://blog.rocketseat.com.br/content/images/2019/03/Testes-automatizados--Experie-ncia-pessoal-.png",
-      "title": "Boas práticas. Começando do jeito certo."
+      "title": "Boas práticas. Começando do jeito certo.",
+      "description": "Maecenas vitae neque ornare, maximus orci et, commodo justo. Donec cursus, erat et convallis luctus, sem eros aliquet sem, sit amet porta eros velit ac ligula. Donec vel ante massa. Donec non elit id dolor fringilla porta. Pellentesque tempor, augue at pulvinar pretium, nisi massa bibendum urna, ac consequat quam est a nibh. Quisque non aliquet nisi. Integer hendrerit ligula ac mauris venenatis, id rhoncus odio tempus.\n\nPhasellus massa tortor, consequat nec tincidunt efficitur, dignissim eget nibh. In tempor nisi ac consectetur varius. Nullam sollicitudin pulvinar mattis. Quisque congue mi lorem, ut luctus enim faucibus sit amet. Proin sit amet felis turpis. Sed id porttitor lectus. Duis tempus sapien at urna bibendum, quis volutpat ligula posuere. Morbi ultricies tellus et erat semper sodales. Vivamus augue purus, tempus vitae finibus at, placerat non ipsum. Duis consectetur, sem at faucibus tempor, metus ante sodales urna, vel aliquam ligula eros vitae est. Praesent elementum nunc nec ultrices posuere."
     },
 
     {
       "id": 7,
       "company": "Wevo",
       "img": "https://blog.rocketseat.com.br/content/images/2018/12/adonis-reactjs-react-native-11.png",
-      "title": "AWS?"
+      "title": "AWS?",
+      "description": "Maecenas vitae neque ornare, maximus orci et, commodo justo. Donec cursus, erat et convallis luctus, sem eros aliquet sem, sit amet porta eros velit ac ligula. Donec vel ante massa. Donec non elit id dolor fringilla porta. Pellentesque tempor, augue at pulvinar pretium, nisi massa bibendum urna, ac consequat quam est a nibh. Quisque non aliquet nisi. Integer hendrerit ligula ac mauris venenatis, id rhoncus odio tempus.\n\nPhasellus massa tortor, consequat nec tincidunt efficitur, dignissim eget nibh. In tempor nisi ac consectetur varius. Nullam sollicitudin pulvinar mattis. Quisque congue mi lorem, ut luctus enim faucibus sit amet. Proin sit amet felis turpis. Sed id porttitor lectus. Duis tempus sapien at urna bibendum, quis volutpat ligula posuere. Morbi ultricies tellus et erat semper sodales. Vivamus augue purus, tempus vitae finibus at, placerat non ipsum. Duis consectetur, sem at faucibus tempor, metus ante sodales urna, vel aliquam ligula eros vitae est. Praesent elementum nunc nec ultrices posuere."
+    },
+
+    {
+      "id": 8,
+      "company": "Wevo",
+      "img": "https://blog.rocketseat.com.br/content/images/2019/03/5_ferramentas_em_alta_para_desenvolvedores_React.png",
+      "title": "Aprendendo a programar com a Wevo",
+      "description": "Maecenas vitae neque ornare, maximus orci et, commodo justo. Donec cursus, erat et convallis luctus, sem eros aliquet sem, sit amet porta eros velit ac ligula. Donec vel ante massa. Donec non elit id dolor fringilla porta. Pellentesque tempor, augue at pulvinar pretium, nisi massa bibendum urna, ac consequat quam est a nibh. Quisque non aliquet nisi. Integer hendrerit ligula ac mauris venenatis, id rhoncus odio tempus.\n\nPhasellus massa tortor, consequat nec tincidunt efficitur, dignissim eget nibh. In tempor nisi ac consectetur varius. Nullam sollicitudin pulvinar mattis. Quisque congue mi lorem, ut luctus enim faucibus sit amet. Proin sit amet felis turpis. Sed id porttitor lectus. Duis tempus sapien at urna bibendum, quis volutpat ligula posuere. Morbi ultricies tellus et erat semper sodales. Vivamus augue purus, tempus vitae finibus at, placerat non ipsum. Duis consectetur, sem at faucibus tempor, metus ante sodales urna, vel aliquam ligula eros vitae est. Praesent elementum nunc nec ultrices posuere."
     }
   ]
 }
