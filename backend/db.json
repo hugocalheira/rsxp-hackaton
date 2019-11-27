@@ -19,5 +19,13 @@
       "password": "qqwwee",
       "type": "company"
     }
+  ],
+  "projetoEmpresa": [
+    {
+      "id": 1,
+      "idUsers": 3,
+      "description": "Workshop - Criando meu Primeiro Site",
+      "segment": "Programação"
+    }
   ]
 }
