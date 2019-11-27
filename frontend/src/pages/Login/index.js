@@ -34,7 +34,6 @@ export default function Login() {
 
         if(response.data.length) {
             localStorage.setItem('token', `${btoa(JSON.stringify(response.data[0]))}.${btoa(new Date().getTime())}` );
-
         } else {
             toast.error(`You'll shall not pass!!!!!`)
         }
