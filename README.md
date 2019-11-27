@@ -31,4 +31,8 @@ Aprender de forma gratuita e dentro da escolas tecnologias que são utilizadas a
 Poder acessar esse conteúdo de forma online.
 Ter a oportunidade de um primeiro estágio em sua área de interesse.
 
-
+# to run
+/backend
+- json-server db.json -p 3333
+/frontend
+- yarn start
