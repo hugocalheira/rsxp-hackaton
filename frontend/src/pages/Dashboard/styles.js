@@ -73,11 +73,14 @@ export const ChatMessage = styled.div`
 
     .chat-text {
         border: none;
-        width: 250px;
+        width: 199px;
+        height: 50px;
     }
 
     .bt-enviar {
         height: 50px;
+        float: right;
+        width: 47px;
     }
 `;
 
