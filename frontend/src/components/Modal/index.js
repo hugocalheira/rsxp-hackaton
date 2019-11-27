@@ -1,9 +1,9 @@
 import React, {useEffect, useState} from 'react';
 
 import { Container } from './styles';
-import { toast } from 'react-toastify';
+// import { toast } from 'react-toastify';
 
-export default function Modal({ program }) {
+export default function Modal({ program, handleSubscription }) {
 
     const [content, setContent] = useState(false)
 
@@ -15,10 +15,9 @@ export default function Modal({ program }) {
         setContent(false);
     }
 
-    const handleSubscription = () => {
+    const handleSubscript = (p) => {
         // do subscription ...
-
-        toast.info('Inscrição efetuada com sucesso!');
+        handleSubscription(p)
         closeModal();
     }
 
@@ -30,7 +29,7 @@ export default function Modal({ program }) {
             <div className="card">
                 <h1>{content.title}</h1>
                 {content.description}
-                <button onClick={() => handleSubscription()}>Inscrever</button>
+                <button onClick={() => handleSubscript(content)}>Inscrever</button>
             </div>
         </div>
     </Container>

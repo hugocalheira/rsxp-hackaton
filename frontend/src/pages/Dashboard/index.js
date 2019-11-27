@@ -4,10 +4,12 @@ import { FaRobot, FaSignOutAlt } from 'react-icons/fa';
 import { Container, Header, Logged, Programs } from './styles';
 import api from '../../services/api';
 import Modal from '../../components/Modal';
+import { toast } from 'react-toastify';
 
 export default function Dashboard() {
 
     const [programs, setPrograms] = useState([]);
+    const [subscripteds, setSubscripteds] = useState([]);
     const [selectedProgram, setSelectedProgram] = useState(null);
 
     useEffect(() => {
@@ -24,7 +26,19 @@ export default function Dashboard() {
     }
 
     const handleSubscription = p => {
-        console.log(p)
+        setSubscripteds([...subscripteds, p]);
+
+        toast.info('Inscrição efetuada com sucesso!');
+    }
+
+    const handleCancel = p => {
+        setSubscripteds([ ...subscripteds.filter(s => {
+            if (s.id !== p.id) {
+                return s
+            }
+        }) ]);
+
+        toast.info('Programa removido com sucesso!');
     }
 
     const handleDetail = p => {
@@ -33,7 +47,7 @@ export default function Dashboard() {
 
     return (
         <>
-            <Modal program={selectedProgram}/>
+            <Modal program={selectedProgram} handleSubscription={handleSubscription}/>
             <Header>
                 <h1><FaRobot size={30} color='#bd2121'/> Gabiru-Tech</h1>
                 <Logged>
@@ -50,7 +64,7 @@ export default function Dashboard() {
                 <h2>Programas inscritos</h2>
 
                 <Programs>
-                    { programs && programs.map(p => (
+                    { subscripteds && subscripteds.map(p => (
 
                     <li key={p.id}>
                         <div onClick={() => handleDetail(p)}>
@@ -58,7 +72,7 @@ export default function Dashboard() {
                             <h4>{p.company}</h4>
                             <h3>{p.title}</h3>
                         </div>
-                        <button onClick={() => handleSubscription(p)}>Inscrever</button>
+                        <button onClick={() => handleCancel(p)}>Cancelar</button>
                     </li>
 
                     ))}
@@ -67,7 +81,7 @@ export default function Dashboard() {
                 <h2>Programas disponíveis</h2>
 
                 <Programs>
-                    { programs && programs.map(p => (
+                    { programs && programs.filter(p => !subscripteds.includes(p) ).map(p => (
 
                     <li key={p.id}>
                         <div onClick={() => handleDetail(p)}>
