@@ -4,6 +4,9 @@ export const Container = styled.div`
     width: 100%;
     height: 100%;
     display: flex;
+    background-image: url('http://www.consed.org.br/media/cache/news_760x470/media/image/gallery/inclusao-digital-escola-joca-costa/5d5a00216285ed8c82ecf1be3f086e82.jpg');
+    background-size: cover;
+    /* opacity: .1; */
 
     justify-content: center;
     align-items: center;

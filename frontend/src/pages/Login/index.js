@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { FaRobot } from 'react-icons/fa';
+import { FaRobot, FaHandPaper } from 'react-icons/fa';
 import api from '../../services/api';
+import {Redirect} from 'react-router-dom';
+import history from '../../services/history';
 
 import { Container } from './styles';
 
@@ -20,7 +22,7 @@ export default function Login() {
             if (date+(60*30*1000) < new Date().getTime()) {
                 localStorage.removeItem('token')
             } else {
-
+                history.push('/dashboard')
             }
         }
     },[ ])
@@ -34,9 +36,8 @@ export default function Login() {
 
         if(response.data.length) {
             localStorage.setItem('token', `${btoa(JSON.stringify(response.data[0]))}.${btoa(new Date().getTime())}` );
-
         } else {
-            toast.error(`You'll shall not pass!!!!!`)
+            toast.error(() => <><FaHandPaper size={20}/> "You'll shall not pass!"</>)
         }
     }
 
@@ -45,7 +46,7 @@ export default function Login() {
             <GlobalStyle />
             <Container>
                 <form onSubmit={handleSubmit}>
-                    <h1><FaRobot size={30} color='blue'/> GabirúTech</h1>
+                    <h1><FaRobot size={30} color='#bd2121'/> Gabiru-Tech</h1>
                     <input type="text" value={email} placeholder="E-mail" onChange={e => setEmail(e.target.value)} />
                     <input type="password" placeholder="Senha" value={password} onChange={e => setPassword(e.target.value)}/>
                     <button type="submit">Entrar</button>
