@@ -10,22 +10,67 @@
       "id": 2,
       "email": "escola@gmail.com",
       "password": "qqwwee",
-      "type": "school",
-      "studants": [1]
+      "type": "school"
     },
     {
       "id": 3,
       "email": "empresa@gmail.com",
       "password": "qqwwee",
       "type": "company"
+    },
+    {
+      "id": 4,
+      "email": "empresa2@gmail.com",
+      "password": "qqwwee",
+      "type": "company"
+    },
+    {
+      "id": 5,
+      "email": "empresa3@gmail.com",
+      "password": "qqwwee",
+      "type": "company"
     }
   ],
-  "projetoEmpresa": [
+  "projet": [
     {
       "id": 1,
-      "idUsers": 3,
+      "fkeUsers": 3,
       "description": "Workshop - Criando meu Primeiro Site",
       "segment": "Programação"
+    },
+    {
+      "id": 2,
+      "fkeUsers": 4,
+      "description": "Workshop - Criando meu Primeiro Game",
+      "segment": "Games"
+    },
+    {
+      "id": 3,
+      "fkeUsers": 5,
+      "description": "Workshop - Corrigindo fotos no Photoshop",
+      "segment": "Design"
+    }
+  ],
+  "projetSchool": [
+    {
+      "id": 1,
+      "fkeProject": 1
+    },
+    {
+      "id": 2,
+      "fkeProject": 2
+    }
+  ],
+  "projectStudent": [
+    {
+      "id": 1,
+      "fkeUsers": 1,
+      "fkeProject": 1
+    },
+    {
+      "id": 2,
+      "fkeUsers": 1,
+      "fkeProject": 1
     }
   ]
 }
