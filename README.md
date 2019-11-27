@@ -39,3 +39,7 @@ Ter a oportunidade de um primeiro estágio em sua área de interesse.
 ### frontend
 - yarn
 - yarn start
+
+### mock data - login
+- aluno@gmail.com
+- qqwwee
