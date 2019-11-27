@@ -32,7 +32,9 @@ Poder acessar esse conteúdo de forma online.
 Ter a oportunidade de um primeiro estágio em sua área de interesse.
 
 # to run
-/backend
+
+### backend
 - json-server db.json -p 3333
-/frontend
+
+### frontend
 - yarn start
