@@ -58,7 +58,6 @@ export const Programs = styled.ul`
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* padding: 2rem; */
 
     li {
         display: flex;
@@ -70,6 +69,7 @@ export const Programs = styled.ul`
         div {
             position: relative;
             overflow: hidden;
+            cursor: pointer;
 
             width: 300px;
             height: 200px;

@@ -32,22 +32,43 @@
     {
       "id": 2,
       "company": "Totalvoice",
-      "img": "https://blog.rocketseat.com.br/content/images/2019/03/SaaS_Single_tenant_ou_Multi-tenant_qual_escolher.png",
+      "img": "https://blog.rocketseat.com.br/content/images/2019/06/Datas-e-hora-rios-no-JavaScript-com-date-fns--adeus-moment-.png",
       "title": "Criando seu próprio assistente pessoal"
     },
 
     {
       "id": 3,
       "company": "Shawee",
-      "img": "https://blog.rocketseat.com.br/content/images/2019/03/SaaS_Single_tenant_ou_Multi-tenant_qual_escolher.png",
+      "img": "https://blog.rocketseat.com.br/content/images/2019/05/Painel.png",
       "title": "Construindo sua própria rede social com React e GraphQL"
     },
 
     {
       "id": 4,
       "company": "LinkApi",
-      "img": "https://blog.rocketseat.com.br/content/images/2019/03/SaaS_Single_tenant_ou_Multi-tenant_qual_escolher.png",
+      "img": "https://blog.rocketseat.com.br/content/images/2019/03/Utilizando_Notification_do_browser--1-.png",
       "title": "HTML, API, JS, URI... Entendendo essa sopa de letrinhas."
+    },
+
+    {
+      "id": 5,
+      "company": "LinkApi",
+      "img": "https://blog.rocketseat.com.br/content/images/2019/03/Construc-a-o.png",
+      "title": "Criando aplicações em tempo real"
+    },
+
+    {
+      "id": 6,
+      "company": "Impulso",
+      "img": "https://blog.rocketseat.com.br/content/images/2019/03/Testes-automatizados--Experie-ncia-pessoal-.png",
+      "title": "Boas práticas. Começando do jeito certo."
+    },
+
+    {
+      "id": 7,
+      "company": "Wevo",
+      "img": "https://blog.rocketseat.com.br/content/images/2018/12/adonis-reactjs-react-native-11.png",
+      "title": "AWS?"
     }
   ]
 }

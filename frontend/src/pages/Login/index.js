@@ -1,8 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { FaRobot, FaHandPaper } from 'react-icons/fa';
 import api from '../../services/api';
-// import {Redirect} from 'react-router-dom';
-import history from '../../services/history';
 
 import { Container } from './styles';
 
@@ -10,23 +8,6 @@ import GlobalStyle from '../../global/styles';
 import { toast } from 'react-toastify';
 
 export default function Login() {
-
-    useEffect(() => {
-        const token = localStorage.getItem('token');
-
-        if (token) {
-            let [ user, date ] = token.split('.');
-            user = JSON.parse(atob(user));
-            date = JSON.parse(atob(date));
-
-            if (date+(60*30*1000) < new Date().getTime()) {
-                localStorage.removeItem('token')
-            } else {
-                console.log(user)
-                setTimeout(() => window.location.href = '/dashboard',100); // refazer
-            }
-        }
-    },[])
 
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
@@ -37,6 +18,7 @@ export default function Login() {
 
         if(response.data.length) {
             localStorage.setItem('token', `${btoa(JSON.stringify(response.data[0]))}.${btoa(new Date().getTime())}` );
+            window.location.href = '/dashboard';
         } else {
             toast.error(() => <><FaHandPaper size={20}/> "You'll shall not pass!"</>)
         }

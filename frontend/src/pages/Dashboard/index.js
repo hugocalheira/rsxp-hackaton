@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { FaRobot, FaSignOutAlt } from 'react-icons/fa';
 
 import { Container, Header, Logged, Programs } from './styles';
-import history from '../../services/history';
 import api from '../../services/api';
 
 export default function Dashboard() {
